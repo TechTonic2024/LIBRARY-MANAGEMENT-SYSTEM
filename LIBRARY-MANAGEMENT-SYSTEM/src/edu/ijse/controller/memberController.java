@@ -20,28 +20,28 @@ public class memberController {
     
     public String save(MemberDto memberDto) throws Exception{
     
-        return null;
+        return memberService.save(memberDto);
     }
     
     public String update(MemberDto memberDto) throws Exception{
     
-        return null;
+        return memberService.update(memberDto);
     }
     
     public String delete(String memberID) throws Exception{
     
-        return null;
+        return memberService.delete(memberID);
         
     }
     
     public ArrayList<MemberDto> getAll() throws Exception{
     
-        return null;
+        return memberService.getAll();
     }
     
     public MemberDto get(String memberID) throws Exception{
     
-        return null;
+        return memberService.get(memberID);
     }
             
 }
